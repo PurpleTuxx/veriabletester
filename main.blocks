@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%uaK[H+70UDIh0Co4#=Q">numberTester</variable></variables><block type="device_button_event" id="RoB:OH_bc_2v4gm]n^9j" x="445" y="-63"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="$B$5#|)HA$)Cmf4:r?|F"><field name="VAR" id="%uaK[H+70UDIh0Co4#=Q">numberTester</field><value name="VALUE"><shadow type="math_number" id="*r,(_o9^iIHl!wnep,I9"><field name="NUM">1</field></shadow></value><next><block type="typescript_statement" id="}xZuJM7gC_{)M`P;pV6%" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showNumber(numberTester, 1)" numlines="1"></mutation></block></next></block></statement></block><block type="pxt-on-start" id="66Q`Q]`oXg/s/rJN%X[M" x="0" y="0"><statement name="HANDLER"><block type="typescript_statement" id="a_0*GD0PUC,OwjR1M-Yy" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="let numberTester = 0" numlines="1" declaredvars="numberTester"></mutation><next><block type="device_show_leds" id="i91Lh}!LHn~z+?!+1bWV"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="K*U8z::_TxsnrMLOWQ^^"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="ISB|=]ItaB%[VGw:57(f"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id=")WJ193f_.oS)Hq/xxkym"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        # . . # . 
+        # . . # . 
+        . # # . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="H_PS2BBuwxPcat71/u)I" x="615" y="125"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_change" id="sn`S@#_E=Qp,VyusX8uU"><field name="VAR" id="%uaK[H+70UDIh0Co4#=Q">numberTester</field><value name="VALUE"><shadow type="math_number" id="|,mO5a]jUyxZq4EFv_7E"><field name="NUM">-1</field></shadow></value><next><block type="typescript_statement" id="@1v0PQc~)ma8+$e*qnNh" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showNumber(numberTester, 1)" numlines="1"></mutation></block></next></block></statement></block><block type="device_button_event" id="RQe_Q}U.Fl0`t,ST+F~i" x="273" y="222"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="variables_set" id=",sh|Gbi0rg!|NI2YZe9_"><field name="VAR" id="%uaK[H+70UDIh0Co4#=Q">numberTester</field><value name="VALUE"><shadow type="math_number" id="U}Zu[.dP^^:Bv54r|gF!"><field name="NUM">0</field></shadow></value><next><block type="typescript_statement" id="C*G@tqZY]lY~31f^!?=F" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showNumber(numberTester, 1)" numlines="1"></mutation></block></next></block></statement></block></xml>
